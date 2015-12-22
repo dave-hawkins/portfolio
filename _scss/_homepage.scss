@@ -1,0 +1,16 @@
+
+.home-bg {
+	background: url('../img/home-bg.png');
+	background-repeat:no-repeat;
+	background-position-x: right;
+	
+}
+.main {
+	max-width:50%;
+	h1 { font-size:3.5em; color: $red; text-align:left;}
+	padding:$base-padding;
+	margin-top:10%;
+	margin-bottom:20%;
+	p {text-align:left;}
+}
+p {color:$grey;}
