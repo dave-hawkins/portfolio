@@ -44,4 +44,3 @@ gulp.task("deploy", ["jekyll-build"], function () {
         .pipe(deploy());
 });
 ```
-# portfolio

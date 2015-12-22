@@ -15,8 +15,7 @@ html, body {
 body {
   background-color: black;
   font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center; }
+  font-size: small; }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
@@ -608,7 +607,18 @@ header.navigation {
     padding-bottom: 30px; } }
 
 .nat-geo {
-  background: #1D1D1D; }
+  background: #1D1D1D url(../img/nat-geo-head-img.png) no-repeat top center;
+  background-size: cover;
+  min-height: 200px; }
+  .nat-geo .img-screen img.screen {
+    float: right; }
+  .nat-geo .header {
+    padding-left: 1.5em; }
+    .nat-geo .header h1 {
+      max-width: 400px;
+      font-size: 100px;
+      color: #FBDA31;
+      float: left; }
 
 body {
   background: white; }

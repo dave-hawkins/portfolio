@@ -1,3 +1,19 @@
 .nat-geo {
-	background: $natgeo-bg;
+	background: $natgeo-bg url(../img/nat-geo-head-img.png) no-repeat top center;
+	background-size: cover;
+	min-height:200px;
+	.img-screen {
+			img.screen {
+				float:right;}
+	}
+	.header {
+		padding-left: $base-padding;
+		h1 {
+			max-width:400px;
+		 	font-size:100px;
+		 	color:$natgeo;
+		 	float:left;
+		}
+		
+	}
 }
