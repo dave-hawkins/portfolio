@@ -323,7 +323,7 @@ html {
   background-position-x: right; }
 
 .main {
-  max-width: 50%;
+  max-width: 700px;
   padding: 1.5em;
   margin-top: 10%;
   margin-bottom: 20%; }
@@ -404,7 +404,6 @@ header.navigation {
   background-color: none;
   border-bottom: 1px solid #e6e6e6;
   min-height: 80px;
-  width: 100%;
   z-index: 999;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -514,7 +513,7 @@ header.navigation {
   padding: 3% 10% 3% 10%; }
 
 #links a {
-  padding: 2% 20% 17.9% 2%;
+  padding: 2% 20% 20.3% 2%;
   text-align: center;
   display: block;
   width: 50%;
@@ -542,6 +541,10 @@ header.navigation {
   background: #FBDA31 url(../img/nat-geo-lead-img.png) no-repeat bottom right;
   background-size: inherit;
   padding: 2% 20% 44% 2%; }
+  @media only screen and (max-width: 960px) {
+    #links #theHub {
+      background-size: 250px;
+      height: 400px; } }
 
 #links #theHub span {
   margin-bottom: 60px; }
@@ -558,6 +561,11 @@ header.navigation {
   background-size: inherit;
   border-left: 10px solid #fff;
   border-bottom: 10px solid #fff; }
+  @media only screen and (max-width: 960px) {
+    #links #craigBingham {
+      background-position: bottom right;
+      background-size: 200px;
+      height: 400px; } }
 
 #craigBingham h3 {
   color: #fff;
@@ -574,6 +582,11 @@ header.navigation {
   background: #3B378E url(../img/placeavote-lead-img.png) no-repeat bottom right;
   background-size: inherit;
   border-left: 10px solid #fff; }
+  @media only screen and (max-width: 960px) {
+    #links #bestClothing {
+      background-position: bottom right;
+      background-size: 250px;
+      height: 400px; } }
 
 #links a:hover {
   color: #3498db;
@@ -587,7 +600,7 @@ header.navigation {
 #home #links a#principals span {
   width: auto; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1280px) {
   #home p {
     font-size: 1.5em; }
   #home #projects #work h2 {
@@ -613,8 +626,7 @@ header.navigation {
 .nat-geo {
   background: #1D1D1D url(../img/nat-geo-head-img.png) no-repeat top center;
   background-size: 100% auto;
-  padding-top: 40px;
-  margin: 0px auto; }
+  padding-top: 40px; }
   .nat-geo p {
     color: #EEEEEE;
     font-weight: 400; }
@@ -623,6 +635,9 @@ header.navigation {
     color: #FBDA31;
     text-align: center;
     margin-bottom: 0; }
+    @media only screen and (max-width: 560px) {
+      .nat-geo h1 {
+        font-size: 52px; } }
   .nat-geo h2 {
     text-align: center;
     font-family: "futura-pt", sans-serif;
@@ -640,6 +655,9 @@ header.navigation {
     text-align: left;
     margin: 40px 0 40px 0;
     font-weight: normal; }
+    @media only screen and (max-width: 560px) {
+      .nat-geo h3 {
+        font-size: 42px; } }
   .nat-geo h4 {
     font-family: "futura-pt", sans-serif;
     color: #fff;
@@ -664,16 +682,108 @@ header.navigation {
     background-size: 100% auto;
     padding-top: 40px;
     margin: 0px auto; }
+    @media only screen and (max-width: 560px) {
+      .nat-geo .pp-bg-1 {
+        background: none;
+        padding-top: 0px; } }
   .nat-geo .bg-natgeo {
     background: #1D1D1D;
+    margin: 0px auto; }
+    @media only screen and (min-width: 560px) {
+      .nat-geo .bg-natgeo {
+        width: 800px; } }
+
+.fox-tv {
+  background: #fff url(../img/fox-tv-bg.png) no-repeat top center;
+  background-size: 100% auto;
+  padding-top: 40px; }
+  .fox-tv h3 {
+    color: #477dca; }
+
+.placeavote .pav {
+  padding: 70px 0px 70px 0px; }
+
+.placeavote .pav-read-bg {
+  background: #F4F3FD;
+  min-height: auto;
+  width: 100%; }
+
+.placeavote .center {
+  padding: 40px;
+  display: block;
+  margin: 0px auto; }
+
+.placeavote .small {
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+  padding-bottom: 50px; }
+
+.placeavote h3 {
+  color: #6B55A0; }
+
+.placeavote video {
+  display: block;
+  margin: 0px auto;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #CFCFCF; }
+
+.placeavote .tc-bg {
+  background: #fff url(../img/tc.png) no-repeat top center;
+  background-size: 100% auto;
+  margin: 0px auto;
+  display: block; }
+  .placeavote .tc-bg .video {
     max-width: 800px;
     margin: 0px auto;
-    padding: 10px 0 0 0; }
-
-.content {
-  margin: 0px auto;
-  max-width: 700px;
-  padding: 0 0 40px 0; }
+    padding-bottom: 50px; }
+  .placeavote .tc-bg p {
+    text-align: center;
+    padding: 40px; }
 
 body {
   background: white; }
+
+.content {
+  margin: 0px auto;
+  padding: 20px; }
+  @media only screen and (min-width: 560px) {
+    .content {
+      width: 700px; } }
+
+h2 {
+  text-align: center;
+  font-family: "futura-pt", sans-serif;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+h3 {
+  font-size: 72px;
+  text-align: left;
+  margin: 40px 0 40px 0;
+  font-weight: normal; }
+  @media only screen and (max-width: 560px) {
+    h3 {
+      font-size: 42px; } }
+
+h4 {
+  font-family: "futura-pt", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+img.fullwidth {
+  width: 100%;
+  height: auto; }
+
+.logo {
+  display: block;
+  margin: 0px auto; }

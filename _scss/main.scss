@@ -14,6 +14,43 @@
 @import "header";
 @import "folio";
 @import "natgeo";
+@import "fox-tv";
+@import "pav";
+
 body {
     background: white;
 }
+.content {
+	margin:0px auto;
+	padding:20px;
+	@media only screen and (min-width: 560px) {width:700px;}
+}
+h2 {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    opacity:0.8;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+h3 {
+    font-size:72px;
+    text-align:left;
+    margin:40px 0 40px 0;
+    font-weight:normal;
+    @media only screen and (max-width: 560px) {font-size:42px;}
+  }
+  h4 {
+      font-family: "futura-pt", sans-serif;
+      text-transform:uppercase;
+      letter-spacing:2px;
+      font-weight:600;
+      font-size:20px;
+      margin-top:40px;
+      margin-bottom:40px;
+    }
+img.fullwidth {width:100%;height:auto;}
+.logo {display:block;margin:0px auto;}

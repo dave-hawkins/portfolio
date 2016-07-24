@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="243px" height="110px" viewBox="0 0 243 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>fox-seeklogo.com</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.258078231   0 0 0 0 0.258078231   0 0 0 0 0.258078231  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.0804545455 102 235.662091 102 235.662091 0.476447368 0.0804545455 0.476447368"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Work---Fox-TV" transform="translate(-583.000000, -165.000000)">
+            <g id="fox-seeklogo.com" filter="url(#filter-1)" transform="translate(587.000000, 167.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M118.694591,71.5140789 L118.694591,31.2683684 C118.694591,26.4931579 115.139841,22.4265789 110.368886,22.4265789 C106.002886,22.4265789 102.245659,26.4931579 102.245659,31.2683684 L102.245659,71.5140789 C102.245659,75.9832895 106.002886,79.7452105 110.368886,79.7452105 C115.139841,79.7452105 118.694591,76.4919474 118.694591,71.5140789 L118.694591,71.5140789 Z M235.662091,101.695342 L205.202,49.2579474 L233.021841,0.884447368 L202.257364,0.884447368 L189.870045,22.4265789 L177.278909,0.884447368 L145.904318,0.884447368 L174.029886,49.5626053 L144.078,101.695342 L174.843818,101.695342 L189.361841,76.4919474 L204.085023,101.695342 L235.662091,101.695342 L235.662091,101.695342 Z M0,102 L0,0.476447368 L60.8196136,0.476447368 L62.6472727,28.3224474 L28.6337727,28.3224474 L28.6337727,41.6361316 L56.4536136,41.6361316 L56.4536136,69.0741316 L28.6337727,69.0741316 L28.6337727,102 L0,102 L0,102 Z M61.93525,51.3905526 C61.93525,24.2572105 83.5627727,2.30573684 110.368886,2.30573684 C137.07175,2.30573684 158.596023,24.2572105 158.596023,51.3905526 C158.596023,78.5265789 137.07175,100.476711 110.368886,100.476711 C83.5627727,100.476711 61.93525,78.6258947 61.93525,51.3905526 L61.93525,51.3905526 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
