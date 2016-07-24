@@ -232,6 +232,10 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
+  ul li,
+  ol li {
+    font-weight: 400;
+    margin-bottom: 20px; }
 
 dl {
   margin-bottom: 0.75em; }
@@ -272,7 +276,8 @@ body {
      -moz-font-feature-settings: "kern", "liga", "pnum";
           font-feature-settings: "kern", "liga", "pnum";
   font-size: 1em;
-  line-height: 1.5; }
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
 
 h1,
 h2,
@@ -282,8 +287,7 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   font-size: 1em;
-  line-height: 1.2;
-  margin: 0 0 0.75em; }
+  line-height: 1.2; }
 
 p {
   margin: 0 0 0.75em; }
@@ -608,17 +612,68 @@ header.navigation {
 
 .nat-geo {
   background: #1D1D1D url(../img/nat-geo-head-img.png) no-repeat top center;
-  background-size: cover;
-  min-height: 200px; }
-  .nat-geo .img-screen img.screen {
-    float: right; }
-  .nat-geo .header {
-    padding-left: 1.5em; }
-    .nat-geo .header h1 {
-      max-width: 400px;
-      font-size: 100px;
-      color: #FBDA31;
-      float: left; }
+  background-size: 100% auto;
+  padding-top: 40px;
+  margin: 0px auto; }
+  .nat-geo p {
+    color: #EEEEEE;
+    font-weight: 400; }
+  .nat-geo h1 {
+    font-size: 100px;
+    color: #FBDA31;
+    text-align: center;
+    margin-bottom: 0; }
+  .nat-geo h2 {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    color: #fff;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .nat-geo h3 {
+    font-size: 72px;
+    color: #FBDA31;
+    text-align: left;
+    margin: 40px 0 40px 0;
+    font-weight: normal; }
+  .nat-geo h4 {
+    font-family: "futura-pt", sans-serif;
+    color: #fff;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .nat-geo li {
+    color: #fff;
+    font-size: 18px; }
+  .nat-geo li:before {
+    content: "+";
+    margin-right: 4px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FBDA31; }
+  .nat-geo .pp-bg-1 {
+    background: #1D1D1D url(../img/pp-bg-1.png) no-repeat top center;
+    background-size: 100% auto;
+    padding-top: 40px;
+    margin: 0px auto; }
+  .nat-geo .bg-natgeo {
+    background: #1D1D1D;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 10px 0 0 0; }
+
+.content {
+  margin: 0px auto;
+  max-width: 700px;
+  padding: 0 0 40px 0; }
 
 body {
   background: white; }

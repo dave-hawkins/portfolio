@@ -1,11 +1,13 @@
 ul,
 ol {
+  li {font-weight:400;margin-bottom:20px;}
+
   list-style-type: none;
   margin: 0;
   padding: 0;
 
   &%default-ul {
-    list-style-type: disc;
+    list-style-type: none;
     margin-bottom: $small-spacing;
     padding-left: $base-spacing;
   }
