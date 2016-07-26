@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-height:1000px;
 }
 
 .column--mobile {
@@ -79,6 +80,7 @@
   background: #0A8CE4 url(../img/fox-tv-lead-img.png) no-repeat bottom right 20px;
   background-size: inherit;
   border-left: 10px solid #fff;
+  min-height:500px;
   border-bottom: 10px solid #fff;
   @media only screen and (max-width: 1460px) {background-position: bottom right;background-size:250px;height:400px;}
   @media only screen and (max-width: 960px) {background-position: bottom right;background-size:200px;height:400px;}
@@ -92,6 +94,7 @@
   background: #3B378E url(../img/placeavote-lead-img.png) no-repeat bottom right;
   background-size: inherit;
   border-left: 10px solid #fff;
+  min-height:500px;
   @media only screen and (max-width: 1560px) {background-position: bottom right;background-size:250px;height:400px;}
   @media only screen and (max-width: 960px) {background-position: bottom right;background-size:250px;height:400px;}
 

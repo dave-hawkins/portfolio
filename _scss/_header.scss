@@ -1,13 +1,13 @@
 header.navigation {
-    background-color: none;
     border-bottom: 1px solid darken($navigation-background, 10);
-    min-height: $navigation-height;
     z-index: 999;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 14px;
     padding-left: $base-padding;
     padding-right: $base-padding;
+    @media only screen and (max-width: 960px){background:#fff;}
+
     .navigation-wrapper {
         @include clearfix;
         position: relative;
@@ -51,7 +51,6 @@ header.navigation {
     // Nav menu
     nav {
         float: none;
-        min-height: $navigation-height;
         z-index: 9999999;
         @include media ($horizontal-bar-mode) {
             float: left;
@@ -76,7 +75,6 @@ header.navigation {
     }
     // The nav items
     ul li.nav-link {
-        background: $navigation-background;
         display: block;
         line-height: $navigation-height;
         overflow: hidden;
@@ -95,9 +93,7 @@ header.navigation {
             text-decoration: none;
             width: auto;
         }
-        &:nth-child(1) {
-            padding-right: 2em;
-        }
+
         a {
             color: $grey;
             display: inline-block;
@@ -114,10 +110,8 @@ header.navigation {
     }
     // Elements on the far right
     .navigation-tools {
-        background: #505050;
         clear: both;
         display: block;
-        height: $navigation-height;
         @include media($horizontal-bar-mode) {
             background: transparent;
             clear: none;
