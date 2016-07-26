@@ -3,6 +3,8 @@
 	background: url('../img/home-bg.png');
 	background-repeat:no-repeat;
 	background-position-x: right;
+	@media only screen and (max-width: 1219px) {	background: url('../img/home-bg-mobile.png');	background-repeat:no-repeat;	background-position-x: right; }
+
 }
 .main {
 	max-width:700px;

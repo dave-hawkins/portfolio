@@ -25,7 +25,7 @@ h1 {
   font-weight: 300; }
 
 p {
-  line-height: 41px;
+  line-height: 35px;
   letter-spacing: 0.5px;
   font-size: 18px; }
 
@@ -165,10 +165,14 @@ label,
 select {
   display: block;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  font-size: 18px;
+  color: #333; }
 
 label {
-  font-weight: 600;
+  font-weight: 400;
+  color: #5F5F5F;
+  letter-spacing: 0.5px;
   margin-bottom: 0.375em; }
   label.required::after {
     content: "*"; }
@@ -235,7 +239,8 @@ ol {
   ul li,
   ol li {
     font-weight: 400;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #333; }
 
 dl {
   margin-bottom: 0.75em; }
@@ -321,6 +326,11 @@ html {
   background: url("../img/home-bg.png");
   background-repeat: no-repeat;
   background-position-x: right; }
+  @media only screen and (max-width: 1219px) {
+    .home-bg {
+      background: url("../img/home-bg-mobile.png");
+      background-repeat: no-repeat;
+      background-position-x: right; } }
 
 .main {
   max-width: 700px;
@@ -509,21 +519,43 @@ header.navigation {
         float: right; } }
 
 /* NEXT PAGE LINKS */
+#links {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+
 #links h1 {
   padding: 3% 10% 3% 10%; }
 
 #links a {
   padding: 2% 20% 20.3% 2%;
   text-align: center;
-  display: block;
-  width: 50%;
   float: left;
   border-bottom: none;
   text-align: left; }
 
+.col {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
 #links a span {
   color: #fff;
-  display: inline-block;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 18px 30px;
   border: 1px solid #fff;
   transition: all 0.2s linear;
@@ -540,7 +572,7 @@ header.navigation {
 #links #theHub {
   background: #FBDA31 url(../img/nat-geo-lead-img.png) no-repeat bottom right;
   background-size: inherit;
-  padding: 2% 20% 44% 2%; }
+  width: 50%; }
   @media only screen and (max-width: 960px) {
     #links #theHub {
       background-size: 250px;
@@ -554,13 +586,20 @@ header.navigation {
   font-size: 60px;
   margin-bottom: 10px;
   font-weight: 300;
-  text-align: left; }
+  text-align: left;
+  margin: 0; }
 
 #links #craigBingham {
   background: #0A8CE4 url(../img/fox-tv-lead-img.png) no-repeat bottom right 20px;
   background-size: inherit;
+  width: 50%;
   border-left: 10px solid #fff;
   border-bottom: 10px solid #fff; }
+  @media only screen and (max-width: 1460px) {
+    #links #craigBingham {
+      background-position: bottom right;
+      background-size: 250px;
+      height: 400px; } }
   @media only screen and (max-width: 960px) {
     #links #craigBingham {
       background-position: bottom right;
@@ -571,17 +610,25 @@ header.navigation {
   color: #fff;
   line-height: 1.7em;
   font-size: 60px;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: 0; }
 
 #bestClothing h3 {
   font-size: 60px;
   font-weight: 300;
-  color: #fff; }
+  color: #fff;
+  margin: 0; }
 
 #links #bestClothing {
   background: #3B378E url(../img/placeavote-lead-img.png) no-repeat bottom right;
   background-size: inherit;
-  border-left: 10px solid #fff; }
+  border-left: 10px solid #fff;
+  width: 50%; }
+  @media only screen and (max-width: 1560px) {
+    #links #bestClothing {
+      background-position: bottom right;
+      background-size: 250px;
+      height: 400px; } }
   @media only screen and (max-width: 960px) {
     #links #bestClothing {
       background-position: bottom right;
@@ -600,7 +647,7 @@ header.navigation {
 #home #links a#principals span {
   width: auto; }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 880px) {
   #home p {
     font-size: 1.5em; }
   #home #projects #work h2 {
@@ -615,7 +662,8 @@ header.navigation {
     border-bottom: none; }
   #bestClothing > h3 {
     color: #fff;
-    line-height: 1.7em; }
+    line-height: 1.7em;
+    margin: 0; }
   #links #colophon {
     border-left: none; }
   footer h3 {
@@ -740,6 +788,36 @@ header.navigation {
   .placeavote .tc-bg p {
     text-align: center;
     padding: 40px; }
+
+.contact-bg {
+  background: url("../img/contact.png");
+  background-repeat: no-repeat;
+  background-position-x: left; }
+  @media only screen and (max-width: 1656px) {
+    .contact-bg {
+      background: none; } }
+
+.contact-main {
+  max-width: 700px;
+  padding: 1.5em;
+  margin-top: 2%;
+  margin-left: 27%;
+  margin-bottom: 20%; }
+  .contact-main h1 {
+    font-size: 3.5em;
+    color: #E6444B;
+    text-align: left; }
+  .contact-main p {
+    text-align: left;
+    color: #5F5F5F; }
+  @media only screen and (max-width: 1656px) {
+    .contact-main {
+      margin: 0px;
+      max-width: 100%; } }
+  .contact-main li {
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    margin-bottom: 15px; }
 
 body {
   background: white; }

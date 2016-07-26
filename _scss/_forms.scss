@@ -11,10 +11,13 @@ select {
   display: block;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  font-size:18px;
+  color: $base-font-color;
 }
-
 label {
-  font-weight: 600;
+  font-weight: 400;
+  color: $grey;
+  letter-spacing: 0.5px;
   margin-bottom: $small-spacing / 2;
 
   &.required::after {
