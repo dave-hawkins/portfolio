@@ -527,8 +527,7 @@ header.navigation {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
-  min-height: 1000px; }
+  width: 100%; }
 
 @media only screen and (max-width: 960px) {
   .column--mobile {
@@ -579,7 +578,8 @@ header.navigation {
 #links #theHub {
   background: #FBDA31 url(../img/nat-geo-lead-img.png) no-repeat bottom right;
   background-size: inherit;
-  width: 100%; }
+  width: 100%;
+  height: 1000px; }
   @media only screen and (max-width: 960px) {
     #links #theHub {
       background-size: 250px;
