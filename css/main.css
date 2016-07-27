@@ -799,7 +799,10 @@ header.navigation {
   background: #fff url(../img/tc.png) no-repeat top center;
   background-size: 100% auto;
   margin: 0px auto;
-  display: block; }
+  display: block;
+  text-align: center; }
+  .placeavote .tc-bg p {
+    padding: 30px 0 10px 0; }
   @media only screen and (max-width: 960px) {
     .placeavote .tc-bg {
       background: none; }
