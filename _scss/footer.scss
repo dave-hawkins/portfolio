@@ -41,23 +41,26 @@
 
   .footer-logo {
     margin-right: 1em;
+    margin-top:3px;
     margin-bottom: 1em;
-
+    font-family: "futura-pt", sans-serif;
+    color: $red;
     @include media($large-screen) {
       float: left;
       margin-bottom: 0;
     }
+    .logo {color:$red;}
   }
 
   .footer-logo img {
     height: 1.6em;
-  } 
+  }
 
   ul {
     line-height: 1.5em;
     margin: 0 0 1em 0;
     padding: 0;
-    
+
     @include media($large-screen) {
       float: left;
       line-height: 1.8em;
