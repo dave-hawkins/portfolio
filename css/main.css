@@ -325,7 +325,7 @@ html {
 .home-bg {
   background: url("../img/home-bg.png");
   background-repeat: no-repeat;
-  background-position-x: right; }
+  background-position: right top; }
   @media only screen and (max-width: 1219px) {
     .home-bg {
       background: url("../img/home-bg-mobile.png");
@@ -683,7 +683,7 @@ header.navigation {
     padding-bottom: 30px; } }
 
 .nat-geo {
-  background: #1D1D1D url(../img/nat-geo-head-img.png) no-repeat top center;
+  background: #1D1D1D url(../img/nat-geo-head-img.jpg) no-repeat top center;
   background-size: 100% auto;
   padding-top: 40px; }
   .nat-geo p {
@@ -737,7 +737,7 @@ header.navigation {
     font-size: 20px;
     color: #FBDA31; }
   .nat-geo .pp-bg-1 {
-    background: #1D1D1D url(../img/pp-bg-1.png) no-repeat top center;
+    background: #1D1D1D url(../img/pp-bg-1.jpg) no-repeat top center;
     background-size: 100% auto;
     padding-top: 40px;
     margin: 0px auto; }
@@ -796,10 +796,13 @@ header.navigation {
   box-shadow: 2px 2px 2px #CFCFCF; }
 
 .placeavote .tc-bg {
-  background: #fff url(../img/tc.png) no-repeat top center;
+  background: #fff url(../img/tc.jpg) no-repeat top center;
   background-size: 100% auto;
   margin: 0px auto;
-  display: block; }
+  display: block;
+  text-align: center; }
+  .placeavote .tc-bg p {
+    padding: 30px 0 10px 0; }
   @media only screen and (max-width: 960px) {
     .placeavote .tc-bg {
       background: none; }
