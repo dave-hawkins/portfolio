@@ -6,9 +6,12 @@
     background: linear-gradient(135deg, #87e0fd 0%, #5b7da8 0%, #746898 100%);
     margin:0px auto;
     text-align: center;
-    background-size: 100% 60px;
-    display: block;
+    display: inline-block;
+    max-height: 700px;
+    width: 100%;
     img.screen {padding:0 0 20px 0;}
+    @media only screen and (max-width: 960px) {  img.screen {padding:20px;} }
+
   }
     background: #F4F3FD;
     .pav {padding:70px 0px 70px 0px;}
