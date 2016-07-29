@@ -776,72 +776,72 @@ header.navigation {
   .fox-tv h3 {
     color: #477dca; }
 
-.placeavote .pav {
-  padding: 70px 0px 70px 0px; }
-
-.placeavote h1.quote {
-  font-style: "Playfair Display", serif;
-  font-size: 42px;
-  font-style: italic; }
-
-@media only screen and (max-width: 960px) {
+.placeavote {
+  background: #F4F3FD; }
+  .placeavote .pav-header {
+    background: #87e0fd;
+    background: linear-gradient(135deg, #87e0fd 0%, #5b7da8 0%, #746898 100%);
+    margin: 0px auto;
+    text-align: center;
+    background-size: 100% 60px;
+    display: block; }
+    .placeavote .pav-header img.screen {
+      padding: 0 0 20px 0; }
   .placeavote .pav {
-    padding: 50px; } }
-
-.placeavote .pav-read-bg {
-  background: #F4F3FD;
-  min-height: auto;
-  width: 100%; }
-
-.placeavote .center {
-  padding: 40px;
-  display: block;
-  margin: 0px auto; }
-
-.placeavote .small {
-  font-size: 12px;
-  text-align: center;
-  line-height: 14px;
-  padding-bottom: 50px; }
-
-@media only screen and (max-width: 960px) {
-  .placeavote .small {
-    padding: 0px 20px 20px 20px; } }
-
-.placeavote h3 {
-  color: #6B55A0; }
-
-.placeavote video {
-  display: block;
-  margin: 0px auto;
-  border-radius: 3px;
-  box-shadow: 2px 2px 2px #CFCFCF; }
-
-.placeavote .tc-bg {
-  background: #fff url(../img/tc.jpg) no-repeat top center;
-  background-size: 100% auto;
-  margin: 0px auto;
-  display: block;
-  text-align: center; }
-  .placeavote .tc-bg p {
-    padding: 30px 0 10px 0; }
+    padding: 70px 0px 70px 0px; }
+  .placeavote h1.quote {
+    font-style: "Playfair Display", serif;
+    font-size: 42px;
+    font-style: italic; }
   @media only screen and (max-width: 960px) {
-    .placeavote .tc-bg {
-      background: none; }
-      .placeavote .tc-bg p {
-        text-align: center;
-        padding: 20px 0px 10px 0px;
-        color: #b7b7b7;
-        font-style: italic; } }
-
-.placeavote .video {
-  max-width: 800px;
-  margin: 0px auto;
-  padding-bottom: 50px; }
-
-.placeavote .pav-video-container {
-  max-width: 1300px;
-  margin: 0px auto; }
+    .placeavote .pav {
+      padding: 50px; } }
+  .placeavote .pav-read-bg {
+    background: #F4F3FD;
+    min-height: auto;
+    width: 100%; }
+  .placeavote .center {
+    padding: 40px;
+    display: block;
+    margin: 0px auto; }
+  .placeavote .small {
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+    padding-bottom: 50px; }
+  @media only screen and (max-width: 960px) {
+    .placeavote .small {
+      padding: 0px 20px 20px 20px; } }
+  .placeavote h3 {
+    color: #6B55A0; }
+  .placeavote video {
+    display: block;
+    margin: 0px auto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #CFCFCF; }
+  .placeavote .tc-bg {
+    background: #fff url(../img/tc.jpg) no-repeat top center;
+    background-size: 100% auto;
+    margin: 0px auto;
+    display: block;
+    text-align: center; }
+    .placeavote .tc-bg p {
+      padding: 30px 0 10px 0; }
+    @media only screen and (max-width: 960px) {
+      .placeavote .tc-bg {
+        background: none; }
+        .placeavote .tc-bg p {
+          text-align: center;
+          padding: 20px 0px 10px 0px;
+          color: #b7b7b7;
+          font-style: italic; } }
+  .placeavote .video {
+    max-width: 800px;
+    margin: 0px auto;
+    padding-bottom: 50px; }
+  .placeavote .pav-video-container {
+    max-width: 1300px;
+    margin: 0px auto; }
 
 .contact-bg {
   background: url("../img/contact.png");
