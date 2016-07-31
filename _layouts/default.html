@@ -25,7 +25,7 @@
     {% if page.description %}
       <meta content="{{ page.description }}" property="og:description">
     {% else %}
-      <meta content="The work of Dave Hawkins UK based Designer." property="og:description">
+      <meta content="The work of Dave Hawkins, UK based Designer." property="og:description">
     {% endif %}
     {% if page.url %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
@@ -45,11 +45,7 @@
     {% if page.url %}
       <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
-    {% if page.description %}
-      <meta name="twitter:description" content="{{ page.description }}">
-    {% else %}
-      <meta name="twitter:description" content="{{ site.description }}">
-    {% endif %}
+      <meta name="twitter:description" content="The work of Dave Hawkins, UK based Designer.">
     {% if page.image %}
   <meta name="twitter:image:src" content="http://davehawkins.co/img/og-image.png">
 {% else %}
