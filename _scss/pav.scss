@@ -1,9 +1,9 @@
 .placeavote {
   .pav-header {background: #87e0fd;
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #87e0fd), color-stop(0%, #5b7da8), color-stop(100%, #746898));
-    background: -webkit-linear-gradient(-45deg, #87e0fd 0%, #5b7da8 0%, #746898 100%);
-    background: -webkit-linear-gradient(315deg, #87e0fd 0%, #5b7da8 0%, #746898 100%);
-    background: linear-gradient(135deg, #87e0fd 0%, #5b7da8 0%, #746898 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #87e0fd), color-stop(0%, #5b7da8), color-stop(100%, #7359c4));
+    background: -webkit-linear-gradient(-45deg, #87e0fd 0%, #5b7da8 0%, #7359c4 100%);
+    background: -webkit-linear-gradient(315deg, #87e0fd 0%, #5b7da8 0%, #7359c4 100%);
+    background: linear-gradient(135deg, #87e0fd 0%, #5b7da8 0%, #7359c4 100%);
     margin:0px auto;
     text-align: center;
     display: inline-block;
@@ -30,9 +30,11 @@
       display:block;
       text-align: center;
       p {padding:30px 0 10px 0;}
-
       @media only screen and (max-width: 960px) {p {text-align: center;padding:20px 0px 10px 0px;color:#b7b7b7;font-style:italic;} background:none; }
     }
+    .prototype {width:100%;margin:0px auto;text-align: center;
+    video {width:300px;display:inline;margin:0px auto;margin-right:30px;}}
     .video {max-width:800px;margin:0px auto;padding-bottom:50px;}
-    .pav-video-container {max-width:1300px;margin:0px auto;}
+    .pav-video-container {max-width:1000px;margin:0px auto;}
+    @media only screen and (max-width: 960px) { .pav-video-container {padding:20px;} }
     }

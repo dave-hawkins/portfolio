@@ -780,7 +780,7 @@ header.navigation {
   background: #F4F3FD; }
   .placeavote .pav-header {
     background: #87e0fd;
-    background: linear-gradient(135deg, #87e0fd 0%, #5b7da8 0%, #746898 100%);
+    background: linear-gradient(135deg, #87e0fd 0%, #5b7da8 0%, #7359c4 100%);
     margin: 0px auto;
     text-align: center;
     display: inline-block;
@@ -839,13 +839,25 @@ header.navigation {
           padding: 20px 0px 10px 0px;
           color: #b7b7b7;
           font-style: italic; } }
+  .placeavote .prototype {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center; }
+    .placeavote .prototype video {
+      width: 300px;
+      display: inline;
+      margin: 0px auto;
+      margin-right: 30px; }
   .placeavote .video {
     max-width: 800px;
     margin: 0px auto;
     padding-bottom: 50px; }
   .placeavote .pav-video-container {
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0px auto; }
+  @media only screen and (max-width: 960px) {
+    .placeavote .pav-video-container {
+      padding: 20px; } }
 
 .contact-bg {
   background: url("../img/contact.png");
