@@ -25,19 +25,15 @@
     {% if page.description %}
       <meta content="{{ page.description }}" property="og:description">
     {% else %}
-      <meta content="{{ site.description }}" property="og:description">
+      <meta content="The work of Dave Hawkins UK based Designer." property="og:description">
     {% endif %}
     {% if page.url %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
     {% endif %}
-    {% if page.date %}
-      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-      <meta content="{{ site.url }}/about/" property="article:author">
-    {% endif %}
     {% if page.image %}
       <meta content="{{site.baseurl}}/img/og-image.png" property="og:image">
     {% else %}
-      <meta content="{{ site.url }}/assets/img/logo-high-resolution.png" property="og:image">
+      <meta content="{{site.baseurl}}/img/og-image.png" property="og:image">
     {% endif %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@davehawkins">
