@@ -923,7 +923,9 @@ header.navigation {
 .artificial .maison-prototype {
   display: block;
   text-align: center;
-  margin: 0px auto; }
+  margin: 0px auto;
+  width: 100%;
+  max-width: 570px; }
 
 body {
   background: white; }
