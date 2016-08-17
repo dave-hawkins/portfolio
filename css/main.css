@@ -893,6 +893,38 @@ header.navigation {
     font-size: 18px;
     margin-bottom: 15px; }
 
+.artificial .logo {
+  max-width: 200px; }
+
+.artificial h1 {
+  font-size: 46px;
+  margin-top: 50px;
+  text-align: center; }
+
+.artificial h3 {
+  font-size: 46px; }
+
+.artificial a {
+  text-align: center;
+  display: inline; }
+
+.artificial small {
+  text-align: center;
+  display: block; }
+
+.artificial ul {
+  text-align: center;
+  margin-top: 30px; }
+
+.artificial ul li {
+  text-align: center;
+  display: inline; }
+
+.artificial .maison-prototype {
+  display: block;
+  text-align: center;
+  margin: 0px auto; }
+
 body {
   background: white; }
 
